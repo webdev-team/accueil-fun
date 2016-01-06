@@ -48,17 +48,6 @@ var NS_Global = NS_Global || {};
 		return rand;
 	};
 	
-	/*
-	NS_Global.restartVideo = function(){
-		NS_Global.video.currentTime = 0.1; //setting to zero breaks iOS 3.2, the value won't update, values smaller than 0.1 was causing bug as well.
-		NS_Global.video.play();
-	}
-
-	//loop video
-	NS_Global.video.on('ended', function(e){
-		console.log(e);
-	});*/
-	
 	NS_Global.init = function(){
 		if(!NS_Global.counterSlide){
 			sessionStorage.clear();
@@ -66,9 +55,8 @@ var NS_Global = NS_Global || {};
 			NS_SocialCount.hideSocialFrame();
 			
 			NS_GetNews.requester();
-			NS_LiveInfo.requester();
+			//NS_LiveInfo.requester();
 			NS_SocialCount.getSocialCount();
-			//NS_SocialCount.getTwCount();
 		}
 	};
 
@@ -214,9 +202,9 @@ var NS_SocialCount = NS_SocialCount || {};
 	NS_SocialCount.getSocialCount = function(){
         $.ajax({
 			type: 'get',
-			url:'http://services.lab.funradio.fr/social.json',
+			url:'http://services.funradio.fr/social.jsonp',
 			cache : false,
-			dataType: 'json',
+			dataType: 'jsonp',
 			success: function(data, status, xhr){
 				var _tmpCount = data.facebook.likes;
 			
@@ -298,7 +286,7 @@ var NS_LiveInfo = NS_LiveInfo || {};
 	NS_LiveInfo.requester = function(){
 		$.ajax({
 			type: 'get',
-			url:'http://www.funradio.fr/video/live/en-direct',
+			url:'http://www.funradio.fr/direct/emission',
 			cache : false,
 			dataType: 'html',							
 			success: function(data, status, xhr){

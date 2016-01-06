@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0240db5-96ba-4025-b468-05a2180f6517" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/screen.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font/eurostile-bold-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font/eurostile-bold-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font/eurostile-bold-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font/eurostile-bold-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font/eurostile-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font/eurostile-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font/eurostile-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font/eurostile-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bg-template-news.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/fb-logo-small.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/fb-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/fun-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/layer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/tw-logo-small.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/tw-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/screen.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/screen.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/_vid1.webm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/vid1.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/vid1.webm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/vid2.mp4" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/screen.js" afterPath="$PROJECT_DIR$/src/js/screen.js" />
     </list>
     <ignored path="accueil-fun.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,7 +26,7 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-10.857142">
               <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
               <folding />
             </state>
@@ -72,8 +46,8 @@
       <file leaf-file-name="screen.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/screen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.61053985">
-              <caret line="275" column="6" selection-start-line="275" selection-start-column="6" selection-end-line="275" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.2532751">
+              <caret line="288" column="36" selection-start-line="288" selection-start-column="36" selection-end-line="288" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -82,7 +56,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-11.892858">
               <caret line="78" column="4" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="4" />
               <folding />
             </state>
@@ -207,7 +181,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../kawabunga" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../forum.xxx.fr" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="FullScreen" value="true" />
@@ -283,7 +257,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -320,7 +294,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="-10.857142">
           <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
           <folding />
         </state>
@@ -334,18 +308,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/screen.js">
+    <entry file="file://$PROJECT_DIR$/src/js/screen.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61053985">
-          <caret line="275" column="6" selection-start-line="275" selection-start-column="6" selection-end-line="275" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="-11.892858">
           <caret line="78" column="4" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/screen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2532751">
+          <caret line="288" column="36" selection-start-line="288" selection-start-column="36" selection-end-line="288" selection-end-column="36" />
           <folding />
         </state>
       </provider>
